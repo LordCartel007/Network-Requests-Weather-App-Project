@@ -1,0 +1,40 @@
+/* hero styling */
+.hero {
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* button styling */
+.fetch-btn {
+  height: 7vh;
+  width: 30vh;
+  font-size: 3vh;
+  background-color: rgb(255, 183, 0);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+/* api text content styling */
+.api-connect {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3vh;
+  color: rgb(255, 183, 0);
+  margin-left: 6vw;
+}
+
+/* adjusting responsiveness on different screen sizes */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .api-connect {
+    margin-left: 8vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .api-connect {
+    margin-left: 10vw;
+  }
+}
